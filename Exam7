@@ -1,0 +1,7 @@
+echo "enter salary"
+read salary
+da=$(( 50 * $salary /100 ))
+hra=$(( 10 * $salary /100 ))
+gs=$(( $da + $hra + 250 + salary ))
+echo "gross salary is:"$gs
+
